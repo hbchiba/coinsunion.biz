@@ -1,0 +1,1196 @@
+/********************tab************************/
+
+.table-responsive {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.18);
+    width: 100%;
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+}
+
+table tbody td {
+    text-align: left;
+    font-size: 14px;
+    color: #0b0b0c;
+    font-weight: normal;
+    padding: 15px 15px;
+    white-space: nowrap;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+table tbody td i {
+    margin-right: 5px;
+    color: #d93f87;
+}
+
+table tbody td span {
+    color: #ffcc66;
+}
+
+/****************top*******************/
+
+.ban-top {
+    padding: 0px 0px 0px 0px;
+}
+
+.ban-logo {
+    padding: 20px 0px 20px 0px;
+}
+
+.ban-logo a img {
+    padding: 0px 0px;
+}
+
+.ban-logo a img:hover {
+    animation-name: wobble-bottom;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+.admin_page_title {
+    padding: 0px 0px 0px 0px;
+}
+
+.ban3 {
+    padding: 30px 0px 0px 0px;
+    text-align: right;
+}
+
+.ban3 ul {
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+}
+
+.ban3 ul li {
+    display: inline-block;
+    padding: 0px 12px;
+    margin: 0px 0px 0px 0px;
+}
+
+.ban3 .ban3but-1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    background: linear-gradient(70deg, #1aacf4, #40f7a7);
+    padding: 8px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    border: double 2px transparent;
+}
+
+.ban3 .ban3but-1:hover {
+    padding: 8px 20px !important;
+    border: double 2px transparent !important;
+    background-image: linear-gradient(#04397b, #063a83), radial-gradient(circle at top left, #18a8f9, #3df1ad) !important;
+    background-origin: border-box !important;
+    background-clip: padding-box, border-box !important;
+    background: transparent;
+    transition: 0.7s;
+    color: #fff !important;
+}
+
+.ban3 .ban3but-2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 8px 20px !important;
+    border: double 2px transparent;
+    background-image: linear-gradient(#04397b, #063a83), radial-gradient(circle at top left, #18a8f9, #3df1ad) !important;
+    background-origin: border-box !important;
+    background-clip: padding-box, border-box !important;
+    background: transparent;
+    border-radius: 4px;
+}
+
+.ban3 .ban3but-2:hover {
+    color: #000 !important;
+    padding: 8px 20px !important;
+    border: 1px transparent;
+    background-image: linear-gradient(#04397b, #063a83), radial-gradient(circle at top left, #18a8f9, #3df1ad) !important;
+    background: linear-gradient(70deg, #1aacf4, #40f7a7) !important;
+    border-radius: 4px !important;
+    border: double 2px transparent !important;
+    transition: 0.7s !important;
+}
+
+.ban3 i {
+    font-size: 26px;
+    color: #041273;
+    padding: 10px 10px;
+    background: border-box;
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+    background: linear-gradient(70deg, #1aacf4, #40f7a7);
+    border-radius: 50px;
+    border: double 2px transparent;
+}
+
+.ban3 i:hover {
+    color: #fff;
+    border: double 2px transparent;
+    background-image: linear-gradient(#04397b, #063a83), radial-gradient(circle at top left, #18a8f9, #3df1ad) !important;
+    background-origin: border-box !important;
+    background-clip: padding-box, border-box !important;
+    background: transparent;
+}
+
+.admin_page_banner {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background: url(../images/banner-bg.png) !important;
+}
+
+.user_account {
+    width: 100%;
+    display: inline-block;
+}
+
+.user_account h3 {
+    width: 100%;
+    display: inline-block;
+}
+
+.user_account h3 i {
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 34px;
+    border-radius: 40px;
+    background: linear-gradient(142deg, #7f5ee9, #2255f9);
+}
+
+.user_account h3 span {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    vertical-align: middle;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 0px 4px 10px;
+}
+
+.user_account h3 span b {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/** admin_page_title **/
+
+.admin_page_title {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.admin_page_title h2 {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    display: inline-block;
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.admin_top_links {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    padding: 40px 0px 0px 0px;
+}
+
+.admin_top_links ul {
+    width: 100%;
+    display: inline-block;
+}
+
+.admin_top_links ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.admin_top_links ul li .btn {
+    display: inline-block;
+    margin: 2px 0;
+}
+
+.admin-menu {
+    background: url(../images/ref-anii.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-position: 0 20%, 0 100%, 0 50%, 0 100%, 0 0;
+    background-size: 2000px;
+    animation: 12s para infinite linear;
+    opacity: 90%;
+    min-height: 250px;
+    padding: 10px 0px 30px 0px;
+}
+
+@keyframes para {
+    0% {
+        background-position: 0;
+    }
+    50% {
+        background-position: -500px 20%, -800px 95%, -5038px 50%, -101px 100%, -720px 0;
+    }
+    100% {
+        background-position: 0px 20%, -800px 95%, -5038px 50%, -101px 100%, -720px 0;
+    }
+}
+
+/*.admin-menu{
+    background:url(../images/banner-bg.png) !important;
+	background-size:cover;
+
+}*/
+
+.dshbrd {
+    padding: 30px 0px 0px 0px;
+}
+
+.dsh1 {
+    border: 1px solid #000;
+    background: url(../images/acc-main.jpg) no-repeat;
+    min-height: 172px;
+    border-radius: 8px;
+}
+
+.dsh-head {
+    padding: 6px 0px;
+    border: 0px solid transparent;
+    background: linear-gradient(70deg, #1aacf4, #40f7a7);
+    text-align: center;
+}
+
+.dsh-head h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #142489;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.dsh-menu {
+    padding: 0px 0px;
+}
+
+.main-acc {
+    padding: 0px 0px;
+}
+
+.main-acc:hover {
+    background: linear-gradient(70deg, #1aacf4, #40f7a7) !important;
+    transform: scale(2.2);
+    -ms-transform: scale(2.2);
+    -webkit-transform: scale(.9);
+    color: #000000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: ;
+    transition: all 280ms ease-in;
+    border-radius: 4px;
+}
+
+.menu_block:hover span,
+.menu_block span:hover {
+    transition: 0.7s;
+    color: #fff !important;
+}
+
+.menu_block small {
+    border-radius: 0%;
+    padding: 0px;
+    margin-bottom: 0px;
+    transition: 0.7s;
+}
+
+.menu_block small i {
+    font-size: 20px;
+    color: #1628a6;
+    padding: 10px 10px;
+    background: border-box;
+    width: 40px;
+    height: 40px;
+    margin: 0px 0px 0px 0px;
+}
+
+.menu_block span {
+    font-size: 16px;
+    color: #080038;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+/*.menu_block:after {
+	
+	content: "";
+	position: absolute;
+	border-right: 1px solid #ffffff;
+	width: 1px;
+	height: 23px;
+	left: 0;
+	top: 0;
+	bottom: 29px;
+	margin: auto;
+}*/
+
+.menu_block.active small {
+    background: #20add0;
+}
+
+.menu_block.active small i {
+    background: #20add0;
+}
+
+/*************************acc-main*******************************/
+
+.acc-main-bg {
+    background: url(../images/sta-bg.jpg) no-repeat top center;
+    background-size: cover;
+    padding: 30px 0px 0px 0px;
+}
+
+.acc-main {
+    padding: 0px 0px 0px 0px;
+}
+
+.acc-main .two-fac {
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.acc-main .two-fac h2 {
+    color: #3b368c;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 0px;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid #fff;
+    background: transparent;
+    box-shadow: 2px 2px 10px #bebaba;
+    border-radius: 4px;
+}
+
+.acc-main .two-fac h2 a:hover {
+    color: #52f5b3;
+    transition: 0.7s;
+}
+
+.acc-box {
+    margin: 20px auto 20px;
+    box-shadow: 2px 2px 10px #bebaba;
+    background: url(../images/plan-img.png) no-repeat top center;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.acc-box img {
+    width: 60px;
+    margin: 15px 0px 15px;
+}
+
+.acc-box h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #042283;
+    margin: 0px 0px 10px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.acc-box p {
+    font-size: 13px;
+    font-weight: 600;
+    background: #1f1173;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 0px 0px 0px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutbox {
+    background: transparent;
+    padding: 10px 10px;
+    color: #fff;
+    position: relative;
+    margin: 20px 0px 20px;
+    text-align: center;
+    box-shadow: 2px 2px 10px #bebaba;
+    border-radius: 6px;
+    height: 170px;
+}
+
+.affiliate-link h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f1173;
+    border-bottom: 1px solid #737376;
+    padding: 0px 0px 8px 0px;
+    margin: 10px 0px 16px 0px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutbox .refvalue {
+    margin: 0 auto;
+    background: #d0edfa;
+    padding: 3px;
+    border-radius: 4px;
+    padding: 8px 5px;
+}
+
+.aboutbox .refvalue input#copyTarget,
+.refvalue input.copycode {
+    width: 100%;
+    border: 1px solid #e49a0978;
+    height: 44px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background: #042283;
+    color: #fff;
+    font-weight: 500;
+    padding-left: 0px;
+    border-radius: 0px;
+    text-align: center;
+    outline: none;
+}
+
+.aboutbox .copy-but {
+    padding: 58px 0px;
+    text-align: center;
+}
+
+.aboutbox .copy-but button {
+    background: linear-gradient(70deg, #1aacf4, #40f7a7);
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    border: none;
+    width: 40%;
+    text-transform: uppercase;
+    padding: 0px 0px;
+}
+
+.aboutbox .copy-but button:hover {
+    border: 1px solid #1aadf3;
+    background: transparent;
+    color: #000;
+}
+
+.aboutbox .refvalue button#copyButton,
+.refvalue button.copybutton {
+    background: linear-gradient(142deg, #7f5ee9, #2255f9);
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 40px;
+    border: none;
+    width: 30%;
+    text-transform: uppercase;
+}
+
+.refvalue a.banners-link {
+    background: linear-gradient(142deg, #7f5ee9, #2255f9);
+    ;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 40px;
+    border: none;
+    width: 30%;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.aboutbox .refvalue span#msg {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ed3174;
+    padding: 8px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: -34px 0px 0px 0px;
+}
+
+/*************************deposit*********************************/
+
+.deposit-bg {
+    background: url(../images/sta-bg.jpg) no-repeat top center;
+    background-size: cover;
+    padding: 30px 0px 30px 0px;
+}
+
+.inner-plan {
+    background: transparent !important;
+    background-size: cover !important;
+    padding: 0px 0px 0px 0px !important;
+    min-height: unset !important;
+}
+
+.inplan {
+    padding: 0px 0px 0px 0px !important;
+}
+
+.deposit h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #142489;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.amt-spnt {
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+.amt-spnt h2 {
+    color: #142489;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.amt-spnt input {
+    width: 40%;
+    font-size: 15px;
+    border: 1px solid #1a0c56;
+    transition: .3s;
+    outline: none;
+    appearance: none;
+    padding-right: 20px;
+    padding-left: 56px;
+    height: 45px;
+    color: #ffffff;
+    background: #142489;
+    padding-top: 0;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/****************************table******************************/
+
+.tab {
+    padding: 50px 0px 0px 0px;
+}
+
+.tab table {
+    border-collapse: collapse;
+    overflow: hidden;
+    width: 100%;
+    padding: 5px;
+}
+
+.tab table th {
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    font-size: 15px;
+    color: #ffffff;
+    border-right: 1px solid rgba(255, 255, 255, 0.39);
+    background: #142489;
+    font-family: 'Poppins';
+}
+
+.tab table tr {
+    color: #282090;
+    border-bottom: 1px solid rgb(173 172 172 / 39%);
+    border-left: 1px solid rgb(173 172 172 / 39%);
+}
+
+.tab table tbody tr td {
+    font-size: 14px;
+    white-space: nowrap;
+    border-radius: inherit;
+    padding: 8px 40px;
+    color: #1a0c56;
+    font-weight: 600;
+    text-align: left;
+    border-right: 1px solid rgb(173 172 172 / 39%);
+    font-family: 'Poppins', sans-serif;
+}
+
+/***************************withdraw**************************/
+
+.withdraw-bg {
+    background: url(../images/sta-bg.jpg) no-repeat top center;
+    background-size: cover;
+    padding: 30px 0px 30px 0px;
+}
+
+.withdraw {
+    padding: 0px 0px 0px 0px;
+}
+
+.withdraw h3 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.wth-top {
+    padding: 0px 0px;
+}
+
+.acc-box2 {
+    width: 80%;
+    background: transparent;
+    padding: 10px 10px;
+    color: #fff;
+    position: relative;
+    margin: 20px 0px 20px;
+    text-align: center;
+    box-shadow: 2px 2px 10px #bebaba;
+    border-radius: 6px;
+}
+
+.acc-box2 p {
+    font-size: 28px;
+    font-weight: 600;
+    color: #09b0ff;
+    margin: 0px 0px 10px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.acc-box2 h2 {
+    color: #3b368c;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 4px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.txt-area {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+.txt-area i {
+    width: 50px;
+    height: 50px;
+    color: #142280;
+    position: absolute;
+    left: 129px;
+    top: 22px;
+    /* bottom: 0; */
+    /* margin: auto; */
+    text-align: center;
+    padding-top: 12px;
+    font-size: 22px;
+    border-radius: 5px;
+    background: linear-gradient(70deg, #1aacf4, #40f7a7);
+}
+
+.txt-area textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px 60px;
+    transition: .3s;
+    border-radius: 7px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #29304a;
+    border: double 2px transparent;
+    background-image: linear-gradient(#fff, #fff), radial-gradient(circle at top left, #18a8f9, #3df1ad) !important;
+    background-origin: border-box !important;
+    background-clip: padding-box, border-box !important;
+    background: transparent;
+}
+
+.in-but1 {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+.in-but1 input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    background: linear-gradient(142deg, #7f5ee9, #2255f9);
+    padding: 10px 30px;
+    border-radius: 28px;
+    border: 1px solid transparent;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    transition: 0.7s;
+}
+
+.in-but1 input:hover {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1f1173;
+    background: transparent;
+    padding: 10px 30px;
+    border-radius: 28px;
+    border: 1px solid #1f1173;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    transition: 0.3s;
+}
+
+/************************earning*******************************/
+
+.earning-bg {
+    background: url(../images/sta-bg.jpg) no-repeat top center;
+    background-size: cover;
+    padding: 30px 0px 30px 0px;
+}
+
+.earn {
+    padding: 0px 0px 0px 0px;
+}
+
+.all-trans {
+    position: relative;
+    margin: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.all-trans select {
+    background: #1f1173;
+    border: 1px solid transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    width: 60%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.all-trans1 {
+    position: relative;
+    margin: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.all-trans1 select {
+    background: #142489;
+    border: 1px solid transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    width: 60%;
+    text-align: center;
+    border-radius: 6px;
+    margin: 4px 0px;
+}
+
+.all-trans select option {
+    background: #3b368c;
+    border: 1px solid transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #f0f5fb;
+}
+
+.all-trans1 h2 {
+    color: #ea3075;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    float: left;
+}
+
+.in-but2 {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.in-but2 input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #29304a;
+    font-weight: 500;
+    padding: 10px 40px 10px 40px;
+    background: linear-gradient(70deg, #1aacf4, #40f7a7);
+    border: 1px solid transparent;
+    border-radius: 6px;
+    transition: 0.7s;
+}
+
+.in-but2 input:hover {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #29304a;
+    font-weight: 500;
+    padding: 10px 40px 10px 40px;
+    background: transparent;
+    border: 1px solid #18a6fc;
+}
+
+/************************banner****************************/
+
+.banners {
+    padding: 30px 0px;
+    background: url(../images/sta-bg.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+.banners .aff-banners {
+    background: transparent;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0px 0px 12px #0b9eeb;
+    display: grid;
+}
+
+.banners .refheader {
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    margin: 20px 0px 10px 0px;
+    line-height: normal;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.banners .aff-banners .nav-tabs {
+    border-radius: 5px;
+    text-align: center;
+    border-bottom: 3px solid #012728;
+    box-shadow: 0px 0px 7px #00191a;
+    background: #09225e;
+}
+
+.banners .aff-banners .nav-tabs>li>a {
+    font-family: 'Poppins', sans-serif;
+    margin-right: 0;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 3px;
+}
+
+.banners .aff-banners .nav>li {
+    padding: 0 15px;
+    margin: 12px 0;
+    float: none;
+    display: inline-block;
+}
+
+.banners .aff-banners .nav-tabs>li.active>a,
+.aff-banners .nav-tabs>li.active>a:hover,
+.aff-banners .nav-tabs>li.active>a:focus {
+    color: #000;
+    background: linear-gradient(70deg, #1aacf4, #40f7a7);
+    border: none;
+    cursor: default;
+}
+
+.banners .aff-banners .nav-tabs>li>a:hover,
+.aff-banners .nav-tabs>li:hover>a {
+    padding: 6px 12px;
+    border-radius: 3px;
+    color: #022829;
+    background: #fff;
+}
+
+.banners .aff-banners .tab-content>.tab-pane {
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.banners textarea {
+    font-size: 14px !important;
+    width: 100%;
+    height: 100px;
+    padding: 15px 15px;
+    background: linear-gradient(70deg, #1aacf4, #40f7a7);
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #09225e;
+}
+
+.banners .aff-banners img {
+    max-width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+/*************************copy************************/
+
+.copy-but1 {
+    padding: 80px 0px;
+}
+
+.copy-but1 .cpy {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid transparent;
+    background: linear-gradient(70deg, #1aacf4, #40f7a7);
+    padding: 8px 40px;
+    border-radius: 4px;
+}
+
+.copy-but1 .cpy:hover {
+    color: #000;
+    border: 1px solid #1aacf4;
+    transition: .7s;
+    background: transparent;
+}
+
+/*******************************refferls*********************************/
+
+.Referrals-bg {
+    padding: 30px 0px;
+    background: url(../images/sta-bg.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+.ref h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #142489;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+/********************************footer1**********************************/
+
+.footer1 {
+    background: url(../images/footeraa.jpg) no-repeat top center !important;
+    background-size: cover !important;
+    min-height: 70px !important;
+    padding: 0px 0px 0px 0px !important;
+}
+
+.foot-bg .copy1 {
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+.foot-bg .copy1 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+/************************top10**********************/
+
+.top10-bg {
+    background: url(../images/sta-bg.jpg) no-repeat top center;
+    background-size: cover;
+    padding: 0px 0px 40px 0px;
+}
+
+/***********************deposit-confrm***********************/
+
+.tab2 {
+    padding: 0px 0px 0px 0px;
+}
+
+.tab2 table {
+    border-collapse: collapse;
+    overflow: hidden;
+    width: 60%;
+    padding: 5px;
+    margin: auto;
+    box-shadow: 0px 0px 8px #1cb0f0;
+}
+
+.tab2 table tr {
+    border: 1px solid #b8b2b2;
+    box-shadow: 0px 0px 0px #b8b2b2;
+}
+
+.tab2 table tr th {
+    text-align: left;
+    font-size: 14px;
+    color: #0b0b0c;
+    font-weight: normal;
+    padding: 15px 15px;
+    white-space: nowrap;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.tab2 table tr td {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 20px;
+    border-right: 1px solid #b3b0b0;
+}
+
+.top10-cnfrm {
+    text-align: center;
+}
+
+.top10-cnfrm h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #142489;
+    font-weight: 600;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.dep-cnfrm {
+    background: url(../images/sta-bg.jpg) no-repeat top center;
+    background-size: cover;
+    padding: 20px 0px 40px 0px;
+}
+
+.in-but3 {
+    padding: 0px 0px;
+    display: inline-block;
+}
+
+.in-but3 input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #29304a;
+    font-weight: 500;
+    padding: 10px 40px 10px 40px;
+    background: linear-gradient(70deg, #1aacf4, #40f7a7);
+    border: 1px solid transparent;
+    border-radius: 6px;
+    transition: 0.7s;
+}
+
+.in-but3 input:hover {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #29304a;
+    font-weight: 500;
+    padding: 10px 40px 10px 40px;
+    background: transparent;
+    border: 1px solid #18a6fc;
+}
+
+/*************************wthdrw-cnfrm*************************/
+
+.in-but4 {
+    padding: 0px 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+.but-v {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.in-but4 input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #29304a;
+    font-weight: 500;
+    padding: 10px 40px 10px 40px;
+    background: linear-gradient(70deg, #1aacf4, #40f7a7);
+    border: 1px solid transparent;
+    border-radius: 6px;
+    transition: 0.7s;
+}
+
+.in-but4 input:hover {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #29304a;
+    font-weight: 500;
+    padding: 10px 40px 10px 40px;
+    background: transparent;
+    border: 1px solid #18a6fc;
+}
+
+@media only screen and (max-width: 991px) {
+    .dsh1 {
+        width: 270px;
+        margin: 10px auto;
+    }
+    .txt-area i {
+        left: 87px !important;
+    }
+    .copy-but1 {
+        padding: 30px 0px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .txt-area i {
+        left: 110px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .txt-area i {
+        left: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .txt-area textarea {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .txt-area i {
+        left: 18px !important;
+    }
+}
